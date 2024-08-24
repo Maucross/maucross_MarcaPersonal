@@ -1,0 +1,57 @@
+.qr-code{
+    font-size: 45px; /* Hace el icono mucho más grande */
+    color: white;
+    background-color: rgb(21, 52, 164); /* Fondo de color blanco */
+    border-radius: 50%; /* Fondo circular */
+    position: fixed; /* Posición fija en la pantalla */
+    bottom: 15px; /* Situado en la parte inferior */
+    left: 13px; /* Situado en la parte izquierda */
+    padding: 20px; /* Espacio alrededor del icono */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    z-index: 1000;
+}
+
+.link-code{
+    font-size: 45px; /* Hace el icono mucho más grande */
+    color: white;
+    background-color: rgb(21, 52, 164);  /* Fondo de color blanco */
+    border-radius: 50%; /* Fondo circular */
+    position: fixed; /* Posición fija en la pantalla */
+    bottom: 15px; /* Situado en la parte inferior */
+    left: 123px; /* Situado en la parte izquierda */
+    padding: 20px; /* Espacio alrededor del icono */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    z-index: 1000;
+}
+.imagen-flotante {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000; /* Se utiliza para instagram */
+    width: 85px;
+    animation: saltar 2s infinite;
+}
+.imagen-flotante2 {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    z-index: 1000; /* Es el que se utiliza para wspp */
+    width: 75px;
+    animation: saltar 2s infinite;
+}
+.imagen-flotante3 {
+    position: fixed;
+    bottom: 210px;
+    right: 10px;
+    z-index: 1000; /* Se utiliza para facebook */
+    width: 85px;
+    animation: saltar 2s infinite;
+}
+@keyframes saltar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Ajusta la altura del salto */
+    }
+}
